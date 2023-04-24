@@ -10,3 +10,5 @@ public class Question1
     System.out.println("Hello World!");
   }
 }
+javac <javac Question1.java>
+javac <javac Question1>

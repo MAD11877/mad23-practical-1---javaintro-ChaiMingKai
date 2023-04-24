@@ -42,7 +42,7 @@ public class Question5
         int maxCount = 0;
         for(int i = 0; i < n; i++) {
             int count = 0;
-            for(int y = 0; y < n; j++) {
+            for(int y = 0; y < n; y++) {
                 if(arr[y] == arr[i]) {
                     count++;
                 }

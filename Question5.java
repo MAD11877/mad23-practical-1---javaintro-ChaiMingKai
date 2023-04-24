@@ -32,7 +32,8 @@ public class Question5
         int[] arr = new int[n];
 
         // get input from user and store in array
-        for(int i = 0; i < n; i++) {
+        for(int i = 0; i < n; i++) 
+        {
             System.out.print("> ");
             arr[i] = in.nextInt();
         }
@@ -40,20 +41,25 @@ public class Question5
         // find mode
         int mode = 0;
         int maxCount = 0;
-        for(int i = 0; i < n; i++) {
+        for(int i = 0; i < n; i++) 
+        {
             int count = 0;
-            for(int y = 0; y < n; y++) {
-                if(arr[y] == arr[i]) {
+            for(int y = 0; y < n; y++) 
+            {
+                if(arr[y] == arr[i]) 
+                {
                     count++;
                 }
             }
-            if(count > maxCount) {
+            if(count > maxCount) 
+            {
                 maxCount = count;
                 mode = arr[i];
             }
         }
 
         System.out.println("Mode: " + mode);
+  }
 }
 
     

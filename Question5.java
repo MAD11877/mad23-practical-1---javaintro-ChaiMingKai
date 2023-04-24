@@ -27,7 +27,6 @@ public class Question5
      */
      
         Scanner in = new Scanner(System.in);
-        System.out.println("Enter the number of integers: ");
         int n = in.nextInt();
         int[] arr = new int[n];
 
@@ -58,7 +57,7 @@ public class Question5
             }
         }
 
-        System.out.println("Mode: " + mode);
+        System.out.println(mode);
   }
 }
 

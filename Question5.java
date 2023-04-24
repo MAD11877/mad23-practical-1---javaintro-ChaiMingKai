@@ -33,7 +33,7 @@ public class Question5
         // get input from user and store in array
         for(int i = 0; i < n; i++) 
         {
-            System.out.print("> ");
+           
             arr[i] = in.nextInt();
         }
 

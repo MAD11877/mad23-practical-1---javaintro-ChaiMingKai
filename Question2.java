@@ -17,7 +17,7 @@ public class Question2
     System.out.print("Enter user's weight(kg) :");
     double weight = in.nextDouble();
     
-    double bmi= weight(height*height);
+    double bmi= weight/(height*height);
     
     System.out.println("Bmi is"+bmi);
    

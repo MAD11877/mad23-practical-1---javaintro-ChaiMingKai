@@ -15,7 +15,7 @@ public class Question3
     int integer=in.nextInt();
     int square=integer*integer;
     
-    System.out.println("Square of " + integer + " is " + square);
+    System.out.println(square);
 
      
     

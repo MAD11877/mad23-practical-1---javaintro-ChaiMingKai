@@ -1,3 +1,5 @@
+javac <javac Question1.java>
+java <javac Question1>
 public class Question1
 {
   public static void main(String[] args)
@@ -10,5 +12,3 @@ public class Question1
     System.out.println("Hello World!");
   }
 }
-javac <javac Question1.java>
-javac <javac Question1>
